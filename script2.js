@@ -7,7 +7,12 @@ function dangky(e)
 
   if(username==''||pass==''||pass2=='')
   {
-    alert("Please fill thes blank"); 
+    alert("Please fill these blank"); 
+    return false;
+  }
+  else if(pass.length<6||pass2.length<6){
+alert("Too Short");
+return false;
   }
   else{
   var user={
@@ -18,7 +23,7 @@ pass2: repass,
   var json=JSON.stringify(user);
   localStorage.setItem(username,json);
   console.log('user added');
-  window.location.href="http://localhost:5501/dangnhap.html";
+  window.location.href="https://bkit-cpp.github.io/WebKiemThuEdited/dangnhap.html";
 }
   
 }
@@ -33,11 +38,11 @@ function dangnhap(e){
   if(username==''||pass==''||pass3=='')
   {
     alert("Please fill these blank");
-    window.location.href="http://localhost:5501/dangnhap.html";
+    window.location.href="https://bkit-cpp.github.io/WebKiemThuEdited/dangnhap.html";
   }
   else if(username==data.username&& pass==data.password && pass3==data.password)
   {
-    window.location.href="http://localhost:5501/";
+    window.location.href="https://bkit-cpp.github.io/WebKiemThuEdited/";
     }
  
  
