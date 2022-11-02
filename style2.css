@@ -1,0 +1,36 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.login-form{
+    width:100%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding:15px;
+    border: 2px solid #cccccc;
+    border-radius:10px;
+}
+h1{
+    color:brown;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.input-box{
+    margin-bottom: 10px;
+}
+.input-box input{
+    padding: 7.5px 15px;
+    width: 100%;
+    border: 1px solid #cccccc;
+    outline: none;
+}
+.btn-box button{
+    padding: 7.5px 15px;
+    border-radius: 3px;
+    background-color:antiquewhite;
+    border:none;
+    outline:none;
+}
